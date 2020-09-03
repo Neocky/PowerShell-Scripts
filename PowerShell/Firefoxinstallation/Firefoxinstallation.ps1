@@ -33,7 +33,7 @@ if ($FirefoxInstall) {
     Write-Output "Firefox succesfully installed"
 } else {
     Write-Output "Firefox will not be installed"
-}
+    }
 
 # Deletion of $SetupFolder & end of script
 Remove-Item -Path $SetupFolder -Recurse
